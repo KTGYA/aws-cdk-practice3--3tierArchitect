@@ -1,0 +1,10 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allow CDK synthesized output and example files"
+paths = [
+  '''cdk\.out/''',
+  '''\.env\.example$''',
+  '''test/fixtures/''',
+]

@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# CDK
+cdk.out/
+cdk.context.json
+*.js
+!jest.config.js
+*.d.ts
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+config/local.*
+
+# AWS
+.aws/
+aws-exports.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs & test
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
